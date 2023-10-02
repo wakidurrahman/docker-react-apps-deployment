@@ -27,3 +27,15 @@ Launches the test runner in the interactive watch mode.
 
 Builds the app for production to the `build` folder.
 
+## Docker command
+
+For Development. 
+`docker compose up`
+or 
+`docker compose up --build`
+
+
+For Production build 
+`docker build -t yourId/workflow`
+
+`docker run -p 8080:80 yourId/workflow`
