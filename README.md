@@ -29,13 +29,13 @@ Builds the app for production to the `build` folder.
 
 ## Docker command
 
-For Development. 
-`docker compose up`
-or 
-`docker compose up --build`
+For development environment setup. 
+- `docker compose up`
+- `docker compose up --build`
 
 
-For Production build 
-`docker build -t yourId/workflow`
+For production environment setup 
 
-`docker run -p 8080:80 yourId/workflow`
+- `docker build -t yourId/workflow`
+
+- `docker run -p 8080:80 yourId/workflow`
