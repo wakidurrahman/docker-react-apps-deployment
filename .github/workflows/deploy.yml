@@ -7,9 +7,10 @@ on:
 jobs:
 
   build:
+
     runs-on: ubuntu-latest
 
     steps:
     - uses: actions/checkout@v3
     - name: Build the Docker image
-      run: docker compose --file docker-compose.yml up --build
+      run: docker build . --file Dockerfile.dev --tag workflow:$(date +%s)
