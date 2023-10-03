@@ -1,5 +1,5 @@
 {
-  "name": "workflow-for-deployment-apps",
+  "name": "docker-react-apps-deployment",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
