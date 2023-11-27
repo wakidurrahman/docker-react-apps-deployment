@@ -14,6 +14,6 @@ jobs:
                 username: ${{ secrets.DOCKERHUB_USERNAME }}
                 password: ${{ secrets.DOCKERHUB_TOKEN }} 
             - name: Development build
-              run: docker build -t ${{ secrets.DOCKERHUB_USERNAME }}/docker-react-apps-deployment:latest -file Dockerfile.dev .
+              run: docker build tag ${{ secrets.DOCKERHUB_USERNAME }}/docker-react-apps-deployment:latest -file Dockerfile.dev .
 
 
