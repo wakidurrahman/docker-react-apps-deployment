@@ -10,6 +10,7 @@ This project was bootstrapped with Create React App
 ## Available Scripts
 
 install essential dependency 
+
 ### `npm install`
 
 In the project directory, you can run:
@@ -17,7 +18,6 @@ In the project directory, you can run:
 ### `npm start`
 
 Runs the app in the development mode.
-
 
 ### `npm test`
 
@@ -30,6 +30,7 @@ Builds the app for production to the `build` folder.
 ## Docker command
 
 For development environment setup. 
+
 - `docker compose up`
 - `docker compose up --build`
 
