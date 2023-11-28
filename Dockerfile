@@ -19,6 +19,6 @@ RUN npm run build
 
 # Run Phase
 FROM nginx
-# Port map 
+# Port map Important for AWS hosting
 EXPOSE 80
 COPY --from=builder /app/build /usr/share/nginx/html
