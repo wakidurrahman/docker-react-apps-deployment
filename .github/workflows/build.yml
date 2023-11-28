@@ -5,7 +5,7 @@ on:
     branches: ['main']
 env:
   TEST_TAG: ${{ secrets.DOCKERHUB_USERNAME }}/docker-react-apps-deployment:test
-  DEVELOPMENT_TAG: ${{ secrets.DOCKERHUB_USERNAME }}/docker-react-apps-deployment:test
+  DEVELOPMENT_TAG: ${{ secrets.DOCKERHUB_USERNAME }}/docker-react-apps-deployment:latest
 
 jobs:
   build:
